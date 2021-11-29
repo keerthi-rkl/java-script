@@ -1,0 +1,25 @@
+
+.btn{
+
+    width:150px;
+    height:30px;
+    background-color: lavender;
+    font-size: 25px;
+    position: absolute;
+    top:70px;
+    left:100px;
+   
+   
+}
+#bts{
+    width:150px;
+    height:30px;
+    
+    font-size: 25px;
+    position: absolute;
+    top:70px;
+    left:300px;
+   
+   
+
+}
