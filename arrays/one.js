@@ -5,4 +5,4 @@ for(let i=0;i<=emp.length-1;i++){
     console.log(emp[i])
 }
 console.log(emp.length);
-console.log(emp.slice());
+console.log(emp.slice(-1)); // to access last element
