@@ -1,0 +1,68 @@
+.bts{
+    width: 150px;
+    height:45px;
+    background-color: aquamarine;
+    position:fixed;
+    top: 20%;
+    left:10%;
+    font-size: larger;
+
+}
+p{
+    font-size: 50px;
+    font-style: italic;
+    color: brown;
+    position:fixed;
+    top:5%;
+    left:10%;
+}
+.change{
+    background-color:aquamarine;
+    position:fixed;
+    top:30%;
+    left:10%;
+    width: 150px;
+    height:45px;
+    font-size: 100%;
+
+    
+}
+h2{
+    font-size: 50px;
+    font-style: italic;
+    color: brown;
+    position:fixed;
+    top:5%;
+    left:50%;
+
+}
+.change1{
+    background-color:aquamarine;
+    position:fixed;
+    top:20%;
+    left:50%;
+    width: 150px;
+    height:45px;
+    font-size: 100%;
+
+}
+.h3{
+   
+    font-size: 50px;
+    font-style: italic;
+    color: brown;
+    position:fixed;
+    top:40%;
+    left:10%;
+ 
+}
+.change2{
+    background-color:aquamarine;
+    position:fixed;
+    top:55%;
+    left:10%;
+    width: 150px;
+    height:45px;
+    font-size: 100%;
+
+}
