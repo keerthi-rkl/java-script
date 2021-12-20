@@ -8,5 +8,7 @@ console.log(emp)
 for(let i=0;i<=emp.length-1;i++){
     //console.log(emp[i].name)
    // console.log(emp[i].age)
-    console.log(emp[i].sal)
+    console.log(emp[i].name)
 }
+console.log(emp[0])
+
