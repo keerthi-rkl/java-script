@@ -16,6 +16,12 @@ let res=add(34,2,1);
 console.log(res) */
   
 
-let add=(a,b)=>a+b;
+/* let add=(a,b)=>a+b;
 let res=add(1,2)
 console.log(res)
+ */
+
+/* let sub=(a,b)=>a+b;
+console.log(sub(1,2))
+ 
+*/
