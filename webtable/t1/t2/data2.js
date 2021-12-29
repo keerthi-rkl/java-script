@@ -1,16 +1,19 @@
-var employee=[{id:2,name:"rakesh"},
-    {id:3,name:"puneeth"},
-    {id:4,name:"venkat"},
-    {id:5,name:"vikas"},
-    {id:6,name:"poojith"}];
-let play=()=>{
+var emp=[{id:1,name:"rakesh"},
+    {id:2,name:"puneeth"},
+    {id:3,name:"venkat"},
+    {id:4,name:"vikas"},
+    {id:5,name:"poojith"}]
+let play = () => {
+    console.log("Test Case 123")
     let rows="";
-    for(let i=0;i<=employee.length-1;i++){
-        rows=rows+
-        `<tr><td>${employe[i].id}</td>
-            <td>${employee[i].name}</td>
-        </tr>`;
+    for(let i = 0; i <= emp.length - 1; i++) {
+        rows =
+         rows +
+          `<tr> 
+          <td>${emp[i].id}</td>
+          <td>${emp[i].name}</td>
+           </tr>`;
     }
-    document.getElementById("test").innerHTML=rows;
+    document.getElementById("test").innerHTML = rows;
 
-}
+};
