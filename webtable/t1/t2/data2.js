@@ -7,8 +7,8 @@ let play=()=>{
     let rows="";
     for(let i=0;i<=employee.length-1;i++){
         rows=rows+
-        `<tr><td>${employee.id}</td>
-            <td>${employee.name}</td>
+        `<tr><td>${employe[i].id}</td>
+            <td>${employee[i].name}</td>
         </tr>`;
     }
     document.getElementById("test").innerHTML=rows;
