@@ -11,7 +11,7 @@ var emp=[{"id":1,"first_name":"Pammie","last_name":"Coslett","email":"pcoslett0@
 function display(){
     
     let rows="";
-   emp.map((emp)=>{rows=
+   emp.forEach((emp)=>{rows=
     rows+
     `<tr>
       <td>${emp.id}</td>
