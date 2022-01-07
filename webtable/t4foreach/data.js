@@ -11,13 +11,15 @@ var emp=[{"id":1,"first_name":"Pammie","last_name":"Coslett","email":"pcoslett0@
 function display(){
     
     let rows="";
-   emp.forEach((emp)=>{rows=
-    rows+
-    `<tr>
-      <td>${emp.id}</td>
-      <td>${emp.first_name}</td>
-      <td>${emp.last_name}</td>
-      <td>${emp.email}</td>
-    </tr>`})
+   emp.forEach((emp)=>{
+     rows=
+     rows+
+     `<tr>
+         <td>${emp.id}</td>
+          <td>${emp.first_name}</td>
+          <td>${emp.last_name}</td>
+          <td>${emp.email}</td>
+     </tr>`})
+    
     document.getElementById("bts").innerHTML=rows;
 }
