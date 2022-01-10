@@ -1,7 +1,7 @@
 const bcrypt=require("bcryptjs")
 let student={name:"rakesh",
              id:34,
-             course:"cumputer science engineering",
+             course:"computer science engineering",
              email:"pulirakesh@gmail.com",
              password:"123bts$"}
 let salt=bcrypt.genSaltSync(3)
