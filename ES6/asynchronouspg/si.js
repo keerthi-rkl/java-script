@@ -1,0 +1,1 @@
+setInterval(function(){console.log("myntra exclusive sale 50% discount")},7000)

@@ -1,0 +1,1 @@
+setTimeout(()=>{console.log("ajio greatest sale")},7000)
